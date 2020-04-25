@@ -7,6 +7,7 @@ TagManager:
   - DangerousTile
   - LargeTile
   - LevelChanger
+  - coin
   layers:
   - Default
   - TransparentFX
