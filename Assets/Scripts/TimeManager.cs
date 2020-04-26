@@ -6,7 +6,7 @@ public class TimeManager : MonoBehaviour
 {
     public static TimeManager instance;
     public TextMeshProUGUI text;
-    TimeSpan time = TimeSpan.FromMinutes(3);
+    TimeSpan time = TimeSpan.FromMinutes(2);
     GameObject[] finishObjects;
 
     // Start is called before the first frame update

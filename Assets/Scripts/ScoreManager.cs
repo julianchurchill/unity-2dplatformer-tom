@@ -5,6 +5,7 @@ public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
     public TextMeshProUGUI text;
+    public TextMeshProUGUI text2;
     int score;
 
     // Start is called before the first frame update
@@ -20,6 +21,7 @@ public class ScoreManager : MonoBehaviour
     {
         score += scoreIncrement;
         text.text = "x" + score.ToString();
+        text2.text = "x" + score.ToString();
     }
 }
 
