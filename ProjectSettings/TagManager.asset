@@ -8,6 +8,7 @@ TagManager:
   - LargeTile
   - LevelChanger
   - coin
+  - ShowOnFinish
   layers:
   - Default
   - TransparentFX
